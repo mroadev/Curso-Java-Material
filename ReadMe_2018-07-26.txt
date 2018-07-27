@@ -1,0 +1,22 @@
+1. Maven y Git
+
+MVN REPOSITORY
+https://mvnrepository.com/
+
+
+2. Clonar
+http://www.github.com/alvarockcl/mysql_java
+
+3 Operadores CRUD (Package Query)
+Tabla Usuario
+
+4. GUI en Swing- Sobre Usuario
+
+
+IDE
+NetBeans (De Juguete)
+Eclipse
+IntelliJ IDEA (Profesional)
+Visual Studio Code (Git - Gratis - Microsoft) Recomendado
+
+Plugins: WindowBuilder
