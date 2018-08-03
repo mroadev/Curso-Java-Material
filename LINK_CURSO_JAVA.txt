@@ -1,0 +1,94 @@
+JAVA
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+ECLIPSE
+http://www.eclipse.org/downloads/eclipse-packages/
+
+NETBEANS
+https://netbeans.org/downloads/
+
+INTELLIJ IDEA
+https://www.jetbrains.com/idea/
+
+MAVEN
+https://maven.apache.org/
+
+MAVEN REPOSITORY
+https://mvnrepository.com/
+
+GIT-SCM
+https://git-scm.com/
+
+MySQL Community Server
+https://dev.mysql.com/downloads/mysql/?
+
+Comandos en Simbolo de sistema
+java -version
+
+Variables de entorno
+Panel de control\Todos los elementos de Panel de control\Sistema\Configuración Avanzada del sistema\ Variables de entorno
+
+
+Variables de sistema
+JAVA_HOME	C:\Program Files\Java\jdk1.8.0_172
+M2_HOME		C:\apache-maven-3.5.4
+MAVEN_HOME	C:\apache-maven-3.5.4
+MVN_HOME	C:\apache-maven-3.5.4
+
+Path
+Editar
+Nuevo
+agregar C:\Program Files\Java\jdk1.8.0_172\bin
+agregar C:\apache-maven-3.5.4\bin
+
+
+Repositorio Profesor
+https://github.com/alvarockcl/curso-java-intro
+
+Vamos a carpeta C:\apache-maven-3.5.4\conf
+Copiamos Setting.xml
+y creamos carpeta C:\M2_REPOSITORY
+Pegamos Setting.xml en C:\M2_REPOSITORY
+Se abre Setting.xml y se copia el sgte codigo
+
+
+Instalando Paquete dependencias de MAVEN
+Simbolo sistema
+mvn archetype:generate -DgroupId=cl.fuentes.app -DartifactId=hola-mundo -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+las dependencias quedan en carpeta C:\M2_REPOSITORY
+
+Luego ver carpeta que hola-mundo
+
+Luego ver programa App.java en la ruta
+C:\hola-mundo\src\main\java\cl\fuentes\app
+
+cd hola-mundo
+
+Limpia las dependencias o el proyecto
+mvn clean
+
+Crea un compilado
+mvn package
+
+java -cp target/hola-mundo-1.0-SNAPSHOT.jar cl.fuentes.app.App
+
+Abrir pom.xml en C:\hola-mundo
+
+agregamos a pom.xml
+  <dependency>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-jdbc</artifactId>
+    <version>9.0.10</version>
+</dependency>
+
+Luego ejecutar mvn install
+
+Antes de Ejecutar Eclipse
+creamos carpeta C:\PROYECTOS_JAVA
+Ejecutamos Eclipse
+Cuando nos pide la Ruta agregamos C:\PROYECTOS_JAVA
+
+Windows/Preferens
+
+
+
