@@ -26,7 +26,7 @@ Comandos en Simbolo de sistema
 java -version
 
 Variables de entorno
-Panel de control\Todos los elementos de Panel de control\Sistema\Configuración Avanzada del sistema\ Variables de entorno
+Panel de control\Todos los elementos de Panel de control\Sistema\ConfiguraciÃ³n Avanzada del sistema\ Variables de entorno
 
 
 Variables de sistema
@@ -90,5 +90,13 @@ Cuando nos pide la Ruta agregamos C:\PROYECTOS_JAVA
 
 Windows/Preferens
 
+
+Clonar un pryecto desde GitHub
+--------------------------------
+git clone https://www.github.com/alvarockcl/mysql_java.git
+
+mvn clean
+
+mvn package
 
 
